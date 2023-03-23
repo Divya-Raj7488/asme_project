@@ -4,16 +4,8 @@ import './Homepage.css'
 
 const Homepage = () => {
   return (
-    <div className='homepageContainer'>
-     
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
-      
-      
+    <div className='homepageContainer'> 
+      <Cards title='rtttttttt' Date='24-02-2003' link='https://timesofindia.indiatimes.com/india/intel-bid-to-radicalise-inmates-of-de-addiction-centres-run-by-waris-punjab-de/articleshow/98910537.cms' />
     </div>
   )
 }
