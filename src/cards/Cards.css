@@ -1,0 +1,7 @@
+.cardsContainer{
+    width: 296px;
+    height: 346px;
+    background-color: rgb(53, 9, 9);
+    border-radius: 0.5rem;
+    margin: 70px 10px 10px 10px;
+}

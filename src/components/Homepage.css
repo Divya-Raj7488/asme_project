@@ -1,0 +1,11 @@
+.homepageContainer{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    background: linear-gradient(rgb(90, 29, 29), rgb(43, 6, 6));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   gap: 25px;
+}
