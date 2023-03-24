@@ -1,10 +1,10 @@
-import './App.css';
+import './App.css'
 import Navbar from './components/Navbar'
 import Homepage from './components/Homepage'
 import Footer from './components/Footer'
 function App() {
   return (
-    <div>
+    <div className='App'>
      <Navbar />
      <Homepage />
      <Footer />

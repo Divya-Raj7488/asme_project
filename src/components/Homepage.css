@@ -1,11 +1,17 @@
-.homepageContainer{
-    width: 100vw;
-    height: auto;
-    min-height: 100vh;
-    background: linear-gradient(rgb(90, 29, 29), rgb(43, 6, 6));
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-   gap: 25px;
+.homepageContainer {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  padding-top: 5%;
+  background-color: rgb(81, 36, 36);
+}
+.cardsContainerDiv {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  background: linear-gradient(rgb(90, 29, 29), rgb(43, 6, 6));
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }

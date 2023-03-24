@@ -10,6 +10,7 @@
 .navbarContainer ul {
   width: 100vw;
   display: flex;
+  flex-grow: 1;
   justify-content: space-evenly;
   list-style-type: none;
   align-items: center;
