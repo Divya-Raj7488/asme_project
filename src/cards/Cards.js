@@ -1,10 +1,11 @@
-import React from 'react'
-import './Cards.css'
+import React from "react";
+import "./Cards.css";
 
 const Cards = (props) => {
   return (
-    <div className='cardsContainer'>
-     {/* title
+    <div className="cardsContainer" key={props.Id}>
+      {/* 
+      title
      pubDate
      link 
      guid 
@@ -14,11 +15,12 @@ const Cards = (props) => {
      content 
      enclosure
      categories  */}
-     <h3>{props.title}</h3>
-     <div>{props.Date}</div>
-     <a href={props.link}>click here for more information</a>
+      <h3>{props.title}</h3>
+      <img src={props.Img} alt='newspaper' className="newspaperImg" />
+      <p>{props.description}</p>
+      <a href={props.link}>click here for more information</a>
     </div>
-  )
+  );
 }
 
-export default Cards
+export default Cards;

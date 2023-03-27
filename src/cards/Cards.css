@@ -1,10 +1,21 @@
 .cardsContainer{
-    width: 296px;
-    height: 346px;
-    background-color: rgb(53, 9, 9);
-    border-radius: 0.5rem;
-    color: white; 
-    margin: 20px;
-    padding-left: 1rem;
-    margin-top: 70px;
+  width: 296px;
+  height: 70vh;
+  background-color: rgb(42, 44, 48);
+  border-radius: 0.5rem;
+  color: white;
+  margin-top: 5rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column; 
+}
+.newspaperImg{
+  height: 50%;
+  width: 100%;
+  border-radius: 1rem;
+}
+.cardsContainer:hover{
+  translate: 0px -10px;
+  z-index: 5px;
 }

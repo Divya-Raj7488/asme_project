@@ -1,50 +1,33 @@
 import React from "react";
 import "./Homepage.css";
 import Cards from "../cards/Cards";
-import axios from 'axios'
+import res from "./Data.json"
+const data = res.Data;
 
 const Homepage = () => {
-  axios.get('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Frssfeedstopstories.cms')
-  .then((res) => {
-    console.log(res)
-  })
+
+
   return (
     <div className="homepageContainer">
-      <div className="cardsContainerDiv">
-        <Cards
-          title="rtttttttt"
-          Date="24-02-2003"
-          link="https://timesofindia.indiatimes.com/india/intel-bid-to-radicalise-inmates-of-de-addiction-centres-run-by-waris-punjab-de/articleshow/98910537.cms"
-        />
-        <Cards
-          title="rtttttttt"
-          Date="24-02-2003"
-          link="https://timesofindia.indiatimes.com/india/intel-bid-to-radicalise-inmates-of-de-addiction-centres-run-by-waris-punjab-de/articleshow/98910537.cms"
-        />
-        <Cards
-          title="rtttttttt"
-          Date="24-02-2003"
-          link="https://timesofindia.indiatimes.com/india/intel-bid-to-radicalise-inmates-of-de-addiction-centres-run-by-waris-punjab-de/articleshow/98910537.cms"
-        />
-        <Cards
-          title="rtttttttt"
-          Date="24-02-2003"
-          link="https://timesofindia.indiatimes.com/india/intel-bid-to-radicalise-inmates-of-de-addiction-centres-run-by-waris-punjab-de/articleshow/98910537.cms"
-        />
-        <Cards
-          title="rtttttttt"
-          Date="24-02-2003"
-          link="https://timesofindia.indiatimes.com/india/intel-bid-to-radicalise-inmates-of-de-addiction-centres-run-by-waris-punjab-de/articleshow/98910537.cms"
-        />
-        <Cards
-          title="rtttttttt"
-          Date="24-02-2003"
-          link="https://timesofindia.indiatimes.com/india/intel-bid-to-radicalise-inmates-of-de-addiction-centres-run-by-waris-punjab-de/articleshow/98910537.cms"
-        />
+      
+      <div className="breakingNewsContainer">
+        <h3 className="Headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum officia quas dicta!</h3>
+        <div className="breakingNewsImg"></div>
+        </div> 
 
-      </div>
+        {data && data.map((data) => { 
+          return <Cards
+          Id={data.Id}
+          title={data.title} 
+          Img={data.imgUrl}
+          description={data.description}
+          />
+        })
+       }
+       
     </div>
   );
 };
+
 
 export default Homepage;

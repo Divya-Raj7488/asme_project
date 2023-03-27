@@ -1,0 +1,32 @@
+.mainpageContainer {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(62, 64, 67);
+}
+.mainpageArticleContainer {
+  width: 70vw;
+  height: 75vh;
+  background-color: rgb(38, 41, 45);
+  margin-top: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.articlesContainer{
+    width: 60%;
+    height: 90%;
+}
+.articleImg {
+  width: 35%;
+  height: 90%;
+  background-image: url("https://static.toiimg.com/photo/msid-99037214,imgsize-80830.cms");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}

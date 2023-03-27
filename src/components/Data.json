@@ -1,0 +1,47 @@
+{
+  "Data": [
+    {
+      "Id": 1,
+      "title": "Top Stories",
+      "imgUrl": "https://tse1.mm.bing.net/th?id=OIP.eNUfCv6EwtuJzN4HrfKo0wHaEK&pid=Api&P=0",
+      "description": "Get sports News",
+      "Link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Frssfeedstopstories.cms"
+    },
+    {
+      "Id": 2,
+      "title": "Sports",
+      "imgUrl": "https://tse1.mm.bing.net/th?id=OIP.eNUfCv6EwtuJzN4HrfKo0wHaEK&pid=Api&P=0",
+      "description": "Get sports News",
+      "Link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Frssfeeds%2F4719148.cms"
+    },
+    {
+      "Id": 3,
+      "title": "Science",
+      "imgUrl": "https://tse1.mm.bing.net/th?id=OIP.eNUfCv6EwtuJzN4HrfKo0wHaEK&pid=Api&P=0",
+      "description": "Get sports News",
+      "Link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Frssfeeds%2F-2128672765.cms"
+    },
+    {
+      "Id": 4,
+      "title": "Environment",
+      "imgUrl": "https://tse1.mm.bing.net/th?id=OIP.eNUfCv6EwtuJzN4HrfKo0wHaEK&pid=Api&P=0",
+      "description": "Get sports News",
+      "Link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Frssfeeds%2F2647163.cms"
+    },
+    {
+      "Id": 5,
+      "title": "Technology",
+      "imgUrl": "https://tse1.mm.bing.net/th?id=OIP.eNUfCv6EwtuJzN4HrfKo0wHaEK&pid=Api&P=0",
+      "description": "Get sports News",
+      "Link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Frssfeeds%2F66949542.cms"
+    },
+    {
+      "Id": 6,
+      "title": "Entertainment",
+      "imgUrl": "https://tse1.mm.bing.net/th?id=OIP.eNUfCv6EwtuJzN4HrfKo0wHaEK&pid=Api&P=0",
+      "description": "Get sports News",
+      "Link": "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Frssfeeds%2F1081479906.cms"
+    }
+  ]
+ 
+}
