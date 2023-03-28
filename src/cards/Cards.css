@@ -19,3 +19,27 @@
   translate: 0px -10px;
   z-index: 5px;
 }
+.mainpageArticleContainer {
+  width: 600px;
+  height: 75vh;
+  background-color: rgb(38, 41, 45);
+  margin-top: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.articlesContainer{
+    width: 60%;
+    height: 90%;
+    align-items: center;
+  
+}
+.articleImg {
+  width: 35%;
+  height: 70%;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
