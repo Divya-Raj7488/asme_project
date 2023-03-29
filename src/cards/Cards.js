@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Cards.css";
 
 const Cards = (props) => {
@@ -7,7 +8,8 @@ const Cards = (props) => {
       <h3>{props.title}</h3>
       <img src={props.Img} alt='newspaper' className="newspaperImg" />
       <p>{props.description}</p>
-      <a href={props.link}>click here for more information</a>
+      <Link to={props.link}>click here for more information</Link>
+     
     </div>
   );
 }

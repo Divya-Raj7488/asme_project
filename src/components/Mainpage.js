@@ -4,6 +4,7 @@ import "./Mainpage.css";
 import { Article } from "../cards/Cards";
 import { useState, useEffect } from "react";
 
+
 export default function Mainpage() {
   const [TopStories, setTopStories] = useState([]);
 
